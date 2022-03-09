@@ -1,3 +1,3 @@
 # test-management
 A repository for test management project
-To test
+This is a test for auto-triggering a pipeline
