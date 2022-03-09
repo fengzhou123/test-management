@@ -1,3 +1,3 @@
 # test-management
 A repository for test management project
-This is a test for auto-triggering a pipeline
+This is the README in the branch test_automation.
