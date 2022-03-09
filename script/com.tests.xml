@@ -3,7 +3,7 @@
   <!--java -cp "artos-0.0.1.jar;test.jar" unit_test.Main - -testscript="script_name.xml"-->
   <suite enable="true" loopcount="1" name="UniqueName">
     <tests>
-      <test name="com.tests.feature2.MmsJavaDriverTest1"/>
+      <test name="com.tests.feature2.MmsJavaDriverTest"/>
       <test name="com.tests.feature1.TestCase_1"/>
       <test name="com.tests.feature1.TestCase_2"/>
       <test name="com.tests.feature2.TestCase_1"/>
