@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration version="1">
+  <!--java -cp "artos-0.0.1.jar;test.jar" unit_test.Main - -testscript="script_name.xml"-->
+  <suite enable="true" loopcount="1" name="UniqueName">
+    <tests>
+      <test name="com.tests.feature2.MmsJavaDriverTest"/>
+      <test name="com.tests.feature1.TestCase_1"/>
+      <test name="com.tests.feature1.TestCase_2"/>
+      <test name="com.tests.feature2.TestCase_1"/>
+      <test name="com.tests.feature2.TestCase_2"/>
+      <test name="com.tests.sample1_general.Sample_0_localBeforeAfterMethods"/>
+      <test name="com.tests.sample1_general.Sample_1_TestUnitSequence"/>
+      <test name="com.tests.sample1_general.Sample_3_SkipTestUnit"/>
+      <test name="com.tests.sample1_general.Sample_4_TestTimeout"/>
+      <test name="com.tests.sample1_general.Sample_5_KnownToFail"/>
+      <test name="com.tests.sample1_general.Sample_6_DataProvider"/>
+      <test name="com.tests.sample1_general.Sample_7_ExpectedException"/>
+      <test name="com.tests.sample1_general.Sample_8_ImportanceIndicator"/>
+      <test name="com.tests.sample1_general.Sample_9_CustomPrompt"/>
+      <test name="com.tests.sample1_general.Sample_10_Guard"/>
+      <test name="com.tests.sample1_general.Sample_11_TCP_Connector"/>
+      <test name="com.tests.sample1_general.Sample_12_Transform"/>
+      <test name="com.tests.sample3_selenium.Sample_Selenium"/>
+      <test name="com.tests.sample4_restassured.Sample_RestAssured"/>
+    </tests>
+    <featurefiles>
+      <file glue="" name="testscenarios.feature"/>
+    </featurefiles>
+    <parameters>
+      <parameter name="PARAMETER_0">parameterValue_0</parameter>
+      <parameter name="PARAMETER_1">parameterValue_1</parameter>
+      <parameter name="PARAMETER_2">parameterValue_2</parameter>
+    </parameters>
+    <testcasegroups>
+      <group name="*"/>
+    </testcasegroups>
+    <testunitgroups>
+      <group name="*"/>
+    </testunitgroups>
+  </suite>
+</configuration>

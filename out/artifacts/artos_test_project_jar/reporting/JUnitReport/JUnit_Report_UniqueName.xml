@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuites disabled="false" errors="0" failures="1" name="UniqueName" tests="1" time=" 0.  0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../conf/JUnit.xsd">
+  <testsuite disabled="false" errors="0" failures="1" hostname="" id="" name="com.tests.feature1.TestCase_1" skipped="0" tests="4" time="00.023" timestamp="">
+    <testcase assertions="" classname="com.tests.feature1.TestCase_1" name="TC_Sign_In_05_05" status="PASS" time="00.001"/>
+    <testcase assertions="" classname="com.tests.feature1.TestCase_1" name="TC_Sign_In_05_06" status="PASS" time="00.001"/>
+    <testcase assertions="" classname="com.tests.feature1.TestCase_1" name="TC_Sign_In_05_07" status="PASS" time="00.000"/>
+    <testcase assertions="" classname="com.tests.feature1.TestCase_1" name="TC_Sign_In_05_08" status="FAIL" time="00.003">
+      <failure message=""/>
+    </testcase>
+    <properties>
+      <property name="" value=""/>
+    </properties>
+  </testsuite>
+</testsuites>
